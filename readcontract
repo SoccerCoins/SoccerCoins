@@ -1,0 +1,65 @@
+
+ Read Contract Information[Reset]
+
+1.  mintingFinished    False bool
+2.  name    SoccerCoins string
+3.  totalSupply    1000000 uint256
+4.  decimals    4 uint256
+5.  getReservedPercentageUnit   
+   addr (address)
+   Query
+ inPercentageUnit uint256
+6.  minCap    1000000 uint256
+7.  mintAgents   
+   <input> (address)
+   Query
+ bool
+8.  getReservedPercentageDecimals   
+   addr (address)
+   Query
+ inPercentageDecimals uint256
+9.  reservedTokensList   
+   <input> (address)
+   Query
+ inTokens uint256, inPercentageUnit uint256, inPercentageDecimals uint256, isReserved bool, isDistributed bool
+10.  upgradeAgent    0x0000000000000000000000000000000000000000 address
+11.  upgradeMaster    0xbda528b552fd028bbac396e9649894c91d3efe64 address
+12.  getReservedTokens   
+   addr (address)
+   Query
+ inTokens uint256
+13.  balanceOf   
+   _owner (address)
+   Query
+ balance uint256
+14.  reservedTokensDestinations   
+   <input> (uint256)
+   Query
+ address
+15.  getUpgradeState    1 uint8
+16.  transferAgents   
+   <input> (address)
+   Query
+ bool
+17.  owner    0xbda528b552fd028bbac396e9649894c91d3efe64 address
+18.  symbol    SOCCR string
+19.  isAddressReserved   
+   addr (address)
+   Query
+ isReserved bool
+20.  released    False bool
+21.  canUpgrade    False bool
+22.  areTokensDistributedForAddress   
+   addr (address)
+   Query
+ isDistributed bool
+23.  reservedTokensDestinationsLen    1 uint256
+24.  totalUpgraded    0 uint256
+25.  releaseAgent    0xdb46c480f278dd98edde7419ccbc4a5f1c3ff1a8 address
+26.  allowance   
+   _owner (address)
+, 
+   _spender (address)
+   Query
+ remaining uint256
+27.  isToken    True bool
